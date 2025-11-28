@@ -8,7 +8,7 @@ if (num % 2 === 0) {
   console.log("number is odd");
 }
 
-/* Question 2 - Take a student's marks as input and print their grade using conditions:
+ Question 2 - Take a student's marks as input and print their grade using conditions:
 90-100: A
 80-89: B
 70-79: C
@@ -39,7 +39,7 @@ if (marks >= 90 && marks <= 100) {
 
 console.log("Your grade is :", grade);
 
-/* Question 3 - Determine whether a given year is a leap year. 
+ Question 3 - Determine whether a given year is a leap year. 
 
 let Year = 2000;
 
@@ -49,7 +49,7 @@ if (Year % 4 === 0) {
   console.log("Not a Leap Year");
 }
 
-/* Question 4 - Find the largest of three numbers using nested if statements. 
+ Question 4 - Find the largest of three numbers using nested if statements. 
 
 let a = prompt("Enter First Number");
 let b = prompt("Enter second Number");
@@ -73,7 +73,7 @@ if (a > b) {
   }
 }
 
-/* Question 5 - Check if a given character is a vowel or a consonant. 
+ Question 5 - Check if a given character is a vowel or a consonant. 
 
 ch = prompt("Enter your character");
 
@@ -89,5 +89,27 @@ else if(ch>="a" && ch<= "z"){
 else{
   console.log("Invalid Character");
 }
+
+
+ Question 6 - Check if a given number is positive, negative, or zero. 
+
+
+let num = prompt("Enter your number");
+
+num =Number(num);
+
+if(num >0){
+  console.log("given number is Positive");
+}
+else if(num === 0){
+  console.log("given number is Zero");
+}
+else if(num <0){
+  console.log("Given Number is negative");
+}
+else{
+  console.log("Invalid Number");
+}
+
 
 */
