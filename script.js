@@ -148,4 +148,38 @@ switch (op) {
 
 console.log("result :", result);
 
+
+Question 8 - Take a number (1–7) as input and print the corresponding day of the week.
+
+
+let day = prompt("Enter a number from 1 to 7");
+
+switch (day) {
+  case "1":
+    console.log("Its Sunday.");
+    break;
+  case "2":
+    console.log("Its Monday.");
+    break;
+  case "3":
+    console.log("Its Tuesday.");
+    break;
+  case "4":
+    console.log("Its Wednesday.");
+    break;
+  case "5":
+    console.log("Its Thrusday.");
+    break;
+  case "6":
+    console.log("Its Friday.");
+    break;
+  case "7":
+    console.log("Its Satudray.");
+    break;
+  default:
+    console.log("Invalid Input");
+}
+
+Question 9 - Check if a person is eligible to vote based on their age (age ≥ 18).
+
 */
