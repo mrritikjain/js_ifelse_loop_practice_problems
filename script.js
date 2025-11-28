@@ -182,4 +182,15 @@ switch (day) {
 
 Question 9 - Check if a person is eligible to vote based on their age (age ≥ 18).
 
+
+
+let age = Number(prompt("Enter Your age"));
+
+if (age >= 18 && age <= 100) {
+  console.log("You are eligible to vote.");
+} else if (age >= 1 && age <= 17) {
+  console.log("You are not eligible to vote.");
+} else {
+  console.log("Entered age is not correct.");
+}
 */
