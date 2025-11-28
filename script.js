@@ -1,4 +1,4 @@
-/* Question 1 - Write a program to check whether a given number is odd or even using . */
+/* Question 1 - Write a program to check whether a given number is odd or even using . 
 
 let num = 5;
 
@@ -14,7 +14,7 @@ if (num % 2 === 0) {
 70-79: C
 60-69: D
 < 60: F
- */
+ 
 
 let marks = prompt("Enter Your Marks");
 marks = Number(marks);
@@ -39,7 +39,7 @@ if (marks >= 90 && marks <= 100) {
 
 console.log("Your grade is :", grade);
 
-/* Question 3 - Determine whether a given year is a leap year. */
+/* Question 3 - Determine whether a given year is a leap year. 
 
 let Year = 2000;
 
@@ -48,7 +48,8 @@ if (Year % 4 === 0) {
 } else {
   console.log("Not a Leap Year");
 }
-/* Question 4 - Find the largest of three numbers using nested if statements. */
+
+/* Question 4 - Find the largest of three numbers using nested if statements. 
 
 let a = prompt("Enter First Number");
 let b = prompt("Enter second Number");
@@ -58,19 +59,35 @@ a = Number(a);
 b = Number(b);
 c = Number(c);
 
-if(a>b){
-  if(a>=c){
+if (a > b) {
+  if (a >= c) {
     console.log("first Number is largest");
-  }
-  else{
+  } else {
     console.log("Last number is largest");
   }
-}
-else{
-  if(b>=c){
+} else {
+  if (b >= c) {
     console.log("second number is largest");
-  }
-  else{
-    console.log("third number is largest")
+  } else {
+    console.log("third number is largest");
   }
 }
+
+/* Question 5 - Check if a given character is a vowel or a consonant. 
+
+ch = prompt("Enter your character");
+
+ch = ch.toLowerCase();
+
+if(ch==="a" || ch==="e" || ch==="i" || ch==="o" || ch==="u"){
+  console.log("Given character is vowel");
+}
+else if(ch>="a" && ch<= "z"){
+  console.log("Given character is consonant");
+}
+
+else{
+  console.log("Invalid Character");
+}
+
+*/
