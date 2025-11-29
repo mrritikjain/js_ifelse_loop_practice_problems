@@ -241,4 +241,15 @@ for (let i = 1; i <= num; i++) {
 
 console.log(result);
 
+Question 3 - Find the sum of the first n natural numbers using a loop.
+
+let n = Number(prompt("Enter a number:"));
+let sum = 0;
+
+for (let i = 1; i <= n; i++) {
+  sum = sum + i;
+}
+
+console.log("Sum =", sum);
+
 */
