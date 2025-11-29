@@ -193,4 +193,29 @@ if (age >= 18 && age <= 100) {
 } else {
   console.log("Entered age is not correct.");
 }
+
+Question 10  - Determine the type of triangle (Equilateral, Isosceles, or Scalene) based on the lengths of its sides.
+
+
+
+let a = Number(prompt("Enter side 1:"));
+let b = Number(prompt("Enter side 2:"));
+let c = Number(prompt("Enter side 3:"));
+
+if (a <= 0 || b <= 0 || c <= 0) {
+  console.log("Invalid input! Lengths must be positive.");
+}
+else if (a + b <= c || a + c <= b || b + c <= a) {
+  console.log("Invalid triangle! Sum of any two sides must be greater than the third.");
+}
+else if (a === b && b === c) {
+  console.log("Equilateral Triangle");
+}
+else if (a === b || b === c || a === c) {
+  console.log("Isosceles Triangle");
+}
+else {
+  console.log("Scalene Triangle");
+}
+
 */
