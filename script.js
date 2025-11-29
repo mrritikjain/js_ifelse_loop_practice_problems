@@ -218,4 +218,14 @@ else {
   console.log("Scalene Triangle");
 }
 
+Loops Questions 
+
+Question 1 - Write a program to print the multiplication table of a given number using a loop.
+
+let num = Number(prompt("Enter a number"));
+
+for (let i = 1; i <= 10; i++) {
+ console.log(num + " x " + i + " = " + (num * i));
+}
+
 */
