@@ -270,4 +270,30 @@ for (let i = 1; i <= 50; i++) {
     console.log(i);
   }
 }
- */
+
+Question 6 - Count the number of digits in a given number using a loop.  
+let Num = prompt("Enter a number");
+let count = 0;
+
+for (let i = 0; i <= Num.length - 1; i++) {
+  count++;
+}
+console.log(" Number of Digits :", count);
+
+Question 7 - Generate the first n terms of the Fibonacci sequence using a loop.
+
+
+
+let n = Number(prompt("Enter total Number you need in series"));
+
+let a = 0;
+let b = 1;
+console.log(a);
+console.log(b);
+for (let i = 0; i < n; i++) {
+  let c = a + b;
+  a = b;
+  b = c;
+  console.log(c);
+}
+  */
