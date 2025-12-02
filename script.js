@@ -296,4 +296,15 @@ for (let i = 0; i < n; i++) {
   b = c;
   console.log(c);
 }
+
+Question 8 - Find the sum of the digits of a number using a loop.
+
+
+let Num = prompt("Enter a number");
+let Sum = 0;
+
+for (let i = 0; i <= Num.length - 1; i++) {
+  Sum += Number(Num[i]);
+}
+console.log(" Sum of Digits :", Sum);
   */
