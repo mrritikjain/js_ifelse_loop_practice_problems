@@ -307,4 +307,25 @@ for (let i = 0; i <= Num.length - 1; i++) {
   Sum += Number(Num[i]);
 }
 console.log(" Sum of Digits :", Sum);
+
+Question 10 - Check if a given number is prime using a loop.
+ 
   */
+
+let num = Number(prompt("Enter a number"));
+let isPrime = true;
+
+for (let i = 2; i <= num-1; i++) { 
+  if (num % i == 0) {
+    isPrime = false;
+    break; 
+  }
+}
+
+if (num <= 1) {
+  console.log("Not a prime number");
+} else if (isPrime) {
+  console.log("Prime number");
+} else {
+  console.log("Not a prime number");
+}
