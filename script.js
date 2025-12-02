@@ -255,6 +255,13 @@ console.log("Sum =", sum);
 
 Question 4 - Write a program to reverse the digits of a number using a loop.
 
+let Num = prompt("Enter a number");
+let rev = "";
+
+for(let i=Num.length-1; i>=0;i--){
+  rev +=Num[i];
+}
+console.log("Reversed number using for loop :", rev);
 
 Question 5 - Print all even numbers from 1 to 50 using a loop.
 
@@ -263,5 +270,4 @@ for (let i = 1; i <= 50; i++) {
     console.log(i);
   }
 }
-
-*/
+ */
